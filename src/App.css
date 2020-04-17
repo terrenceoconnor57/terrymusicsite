@@ -1,11 +1,13 @@
 .App {
   text-align: center;
+  margin: none;
+  padding: none;
 }
 
 
 .App-header {
+  margin-top: -13px;
   background: black;
-  border-bottom: 0px solid rgb(108, 190, 217);
   height: 80px;
   text-align: center;
 }
@@ -20,14 +22,12 @@
 }
 
 .mus {
-  font-size: 25px;
-}
-
-
-.music  {
-
+  font-size: 30px;
   color: white;
 }
+
+
+
 
 .cent {
   display: block;
@@ -42,4 +42,12 @@
   text-decoration: none;
   color: white;
   font-size: 25px;
+}
+
+.mainline {
+  font-size: 80px;
+  margin: 50px;
+  color: white;
+  font-family: 'Righteous', cursive;
+  letter-spacing: 10px;
 }
