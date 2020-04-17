@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import MusicPlayer from 'react-responsive-music-player';
 
 class App extends Component {
   render() {
@@ -83,6 +84,10 @@ class App extends Component {
 </div>
 
   <h1 className = 'mainline'>Our Music</h1>
+
+  <div className = 'centerplayer'>
+  <MusicPlayer href ="/sf" playlist={playlist} />
+  </div>
 
     </div>
   );

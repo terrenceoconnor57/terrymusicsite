@@ -34,7 +34,7 @@
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Bebas Neue', cursive;
+
 
 }
 
@@ -42,12 +42,27 @@
   text-decoration: none;
   color: white;
   font-size: 25px;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .mainline {
-  font-size: 80px;
+  font-size: 120px;
   margin: 50px;
-  color: white;
-  font-family: 'Righteous', cursive;
-  letter-spacing: 10px;
+  color: White;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 25px;
+  text-shadow: 5px 5px 10px black;
+}
+
+.centerplayer {
+  text-align: center;
+  background: rgb(209, 227, 225,0.5);
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  width: 80%;
+  padding: 40px;
+
+  box-shadow: 2px 2px 5px;
+  font-size: 30px;
 }
