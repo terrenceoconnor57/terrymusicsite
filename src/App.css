@@ -2,6 +2,8 @@
   text-align: center;
   margin: none;
   padding: none;
+
+
 }
 
 
@@ -45,6 +47,11 @@
   font-family: 'Bebas Neue', cursive;
 }
 
+.anc:hover {
+  font-size: 30px;
+  color: white;
+}
+
 .mainline {
   font-size: 200px;
   margin: 10px;
@@ -64,7 +71,6 @@
   border-radius: 10px;
   width: 50%;
   padding: 40px;
-
   box-shadow: 2px 2px 5px;
   font-size: 30px;
 }
@@ -88,4 +94,14 @@
 
 .buttondiv {
   padding-bottom: 700px;
+  font-size: 20px;
+}
+
+.chevron {
+  color: white;
+  size: 20px;
+}
+
+.second {
+  
 }

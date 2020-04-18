@@ -14,7 +14,7 @@ class MusicBox extends Component {
   render() {
     const playlist = [
   {
-    url: 'lead groove with piano.mp3',
+    url: 'SomedayFinal.mp3',
     cover: 'mee.png',
     title: 'Someday',
     artist: [
@@ -80,10 +80,10 @@ class MusicBox extends Component {
 ]
 
 return(
-<div>
+<div className = 'second'>
   <h1 className = 'mainline'>Our Music</h1>
   <div className = 'buttondiv'>
-  <a className = 'listen'>Listen</a>
+  <a className = 'listen'>Listen<i class="chevron down icon"></i></a>
   </div>
 
 <div className = 'centerplayer'>

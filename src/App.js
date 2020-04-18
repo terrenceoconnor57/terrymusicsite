@@ -16,10 +16,10 @@ class App extends Component {
     <div className = "App-header">
     <ul className = "fulltoplist">
     <li className = 'cent'><a className = 'mus'>D<i class="music icon"></i>T</a></li>
-    <li className = 'cent'><a className = 'anc' href ="/">Home</a></li>
-    <li className = 'cent'><a className = 'anc' href ="/About/About">About</a></li>
-    <li className = 'cent'><a className = 'anc' href ="">Songs</a></li>
-    <li className = 'cent'><a className = 'anc' href ="">Lyrics</a></li>
+    <li className = 'cent'><a className = 'anc' href ="/">Home <i class="home icon"></i></a></li>
+    <li className = 'cent'><a className = 'anc' href ="/About/About">About <i class="address card icon"></i></a></li>
+    <li className = 'cent'><a className = 'anc' href ="">Songs <i class="microphone icon"></i></a></li>
+    <li className = 'cent'><a className = 'anc' href ="">Lyrics <i class="pencil alternate icon"></i></a></li>
     </ul>
 </div>
 
