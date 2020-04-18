@@ -6,9 +6,15 @@
 
 }
 
+.fixed {
+  position: fixed;
+  width: 100%;
+}
+
+
 
 .App-header {
-  margin-top: -13px;
+  margin-top: -14px;
   background: rgb(169,169,169,0.7);
   height: 80px;
   text-align: center;
@@ -27,6 +33,19 @@
   font-size: 30px;
   color: white;
 }
+
+.mus:hover {
+  font-size: 35px;
+  color: white;
+}
+
+
+
+.home, .address, .microphone, .pencil {
+  color: transparent;
+}
+
+
 
 
 
@@ -48,6 +67,11 @@
 }
 
 .anc:hover {
+  font-size: 30px;
+  color: white;
+}
+
+.anc:hover i{
   font-size: 30px;
   color: white;
 }
@@ -92,16 +116,15 @@
   color: white;
 }
 
+
+
 .buttondiv {
   padding-bottom: 700px;
   font-size: 20px;
 }
 
-.chevron {
-  color: white;
-  size: 20px;
-}
+
 
 .second {
-  
+
 }
