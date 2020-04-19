@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './Lyrics.css';
 
 
-class Lyrics extends React.Component {
+class Lyrics extends Component {
 
 
     constructor(props) {
@@ -10,20 +10,20 @@ class Lyrics extends React.Component {
         super(props);
 
         this.state = {
-            lyrics: [],
+            songs: [],
             isLoaded: false
         }
 
     }
 
 
-    componentDidMount() {
+    componentDidMount = () => {
 
         fetch('https://jsonterrence.s3.amazonaws.com/data.json')
             .then(res => res.json())
             .then(json => {
                 this.setState({
-                    lyrics: json,
+                    songs: json,
                 })
             }).catch((err) => {
                 console.log(err);
@@ -32,22 +32,32 @@ class Lyrics extends React.Component {
     }
 
 
-    render() {
+    render(props) {
 
-        const { lyrics } = this.state;
+
+        const { songs } = this.state;
 
 
         return (
+          <div className = 'whole'>
           <div className = 'lyricspage'>
+          <h1 className = 'lyricsheader'>Lyrics</h1>
                 <ul className = 'lyricslist'>
-                    {lyrics.map(lyric => (
-                        <li key={lyric.id} className = 'lyrics'>
-                            <a className = 'songjson'>{lyric.song}</a>
-                            <a className = 'songjson'>{lyric.lyrics}</a>
+                    {songs.map(song => (
+                        <li key={song.id} className = 'lyrics'>
+
+                            <a className = 'songjson' onClick={()=> window.open(song.lyrics)}><i class="caret right icon"></i>{song.song}</a>
 
                         </li>
+
+
+
                     ))}
+
                 </ul>
+
+
+            </div>
             </div>
         );
 

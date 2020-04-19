@@ -1,11 +1,30 @@
-
-.lyricspage {
-  padding-top: 100px;
+.whole {
+  padding-top: 150px;
 }
 
 
+.lyricspage {
+  border: 4px solid white;
+  border-radius: 10px;
+  padding-top: 20px;
+  background: rgb(0,0,0,0.8);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  padding-right: 20px;
+
+}
+
+.lyricsheader {
+  font-size: 100px;
+  color: white;
+  letter-spacing: 5px;
+  font-family: 'Oswald', sans-serif;
+}
+
 .lyricslist {
-  margin-top: 100px;
+  margin-top: 1px;
   list-style: none;
 }
 
@@ -13,12 +32,26 @@
 
 .lyrics {
   padding: 15px;
+  text-align: left;
+
 
 }
 
 .songjson {
-  font-size: 40px;
+  font-size: 50px;
   color: white;
-  
+  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+}
 
+.songjson:hover {
+  color: white;
+}
+
+.songjson:hover .caret {
+  color: white;
+}
+
+.caret {
+  color: transparent;
 }

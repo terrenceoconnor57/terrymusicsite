@@ -7,9 +7,18 @@ import MusicPlayer from 'react-responsive-music-player';
 import About from './About/About';
 import MusicBox from './MusicBox/MusicBox';
 import Lyrics from './Lyrics/Lyrics';
+import LyricModal from './LyricModal/LyricModal';
+import BackDrop from './BackDrop/BackDrop';
+
+
+
 
 class App extends Component {
+
+
+
   render() {
+
 
   return (
     <BrowserRouter>
