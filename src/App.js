@@ -9,6 +9,8 @@ import MusicBox from './MusicBox/MusicBox';
 import Lyrics from './Lyrics/Lyrics';
 import LyricModal from './LyricModal/LyricModal';
 import BackDrop from './BackDrop/BackDrop';
+import Songs from './Songs/Songs';
+
 
 
 
@@ -29,10 +31,11 @@ class App extends Component {
     <li className = 'cent'><a className = 'mus' href ="/">D<i class="music icon"></i>T</a></li>
     <li className = 'cent'><a className = 'anc' href ="/"> <i class="home icon"></i>Home</a></li>
     <li className = 'cent'><a className = 'anc' href ="/About/About"><i class="address card icon"></i>About</a></li>
-    <li className = 'cent'><a className = 'anc' href =""><i class="microphone icon"></i>Songs</a></li>
+    <li className = 'cent'><a className = 'anc' href ="/Songs/Songs"><i class="microphone icon"></i>Songs</a></li>
     <li className = 'cent'><a className = 'anc' href ="/Lyrics/Lyrics"><i class="pencil alternate icon"></i>Lyrics</a></li>
     </ul>
 </div>
+
 </div>
 
 
@@ -46,6 +49,8 @@ class App extends Component {
 
 
   <Route path = "/About/About" exact component = {About} />
+
+  <Route path = "/Songs/Songs" exact component = {Songs} />
 
   <Route path = "/Lyrics/Lyrics" exact component = {Lyrics} />
 
