@@ -1,4 +1,38 @@
 
+.entirediv {
+  padding-top: 150px;
+}
+
+.entireheader {
+  font-size: 100px;
+  color: white;
+}
+
 .songdiv {
-  padding-top: 500px;
+  border: 5px solid white;
+  border-radius: 10px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(0,0,0,0.8);
+  padding-right: 40px;
+}
+
+@media (max-width: 475px) {
+   .songdiv {
+    width: 100%;
+    border: none;
+    border-radius: none;
+
+  }
+}
+
+.songheader {
+  color: white;
+  font-size: 50px;
+}
+
+.listsongs {
+  margin-right: auto;
+  margin-left: auto;
 }

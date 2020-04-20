@@ -29,8 +29,6 @@
 .lyricsheader {
   font-size: 100px;
   color: white;
-  letter-spacing: 5px;
-  font-family: 'Oswald', sans-serif;
 }
 
 @media (max-width: 475px) {

@@ -40,8 +40,9 @@ class Lyrics extends Component {
 
         return (
           <div className = 'whole'>
-          <div className = 'lyricspage'>
           <h1 className = 'lyricsheader'>Lyrics</h1>
+          <div className = 'lyricspage'>
+
                 <ul className = 'lyricslist'>
                     {songs.map(song => (
                         <li key={song.id} className = 'lyrics'>
