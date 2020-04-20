@@ -1,4 +1,8 @@
 
+.mainabout {
+  padding-top: 75px;
+  padding-bottom: none;
+}
 
 .AboutHeader {
   font-size: 120px;
@@ -10,22 +14,30 @@
   text-shadow: 5px 5px 10px black;
 }
 
+@media (max-width: 475px) {
+   .AboutHeader {
+    font-size: 60px;
+    margin-right: 30px;
 
-
-
+  }
+}
 
 
 .aboutparagraph {
-  color: white;
-  background: grey;
-  width: 72%;
+  background: white;
+  width: 100%;
   margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
+  margin-top: -70px;
+  padding-bottom: 1000px;
 }
+
 
 .text {
   font-size: 30px;
   padding: 15px;
-  color: white;
+  color: black;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Oswald', sans-serif;
 }

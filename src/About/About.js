@@ -15,6 +15,7 @@ const About = (props) => {
 <div className = 'mainabout'>
 <h1 className = 'AboutHeader'>About Us</h1>
 <br/>
+
     <div className = 'aboutparagraph'>
     <p className = 'text'>The render() method renders the BootstrapTable component,
     passing it the current users from the state.
