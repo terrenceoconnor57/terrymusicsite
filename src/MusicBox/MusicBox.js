@@ -15,7 +15,6 @@ class MusicBox extends Component {
     const playlist = [
   {
     url: 'SomedayFinal.mp3',
-    cover: 'mee.png',
     title: 'Someday',
     artist: [
       'Terry',
@@ -86,9 +85,14 @@ return(
   <a className = 'listen'>Listen<i class="chevron down icon"></i></a>
   </div>
 
+<div className = 'wrapplayer'>
 <div className = 'centerplayer'>
 <MusicPlayer playlist={playlist}/>
 </div>
+</div>
+<br/>
+<br/>
+<br/>
 </div>
 
 

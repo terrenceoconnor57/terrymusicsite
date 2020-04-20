@@ -16,7 +16,9 @@ const About = (props) => {
 <h1 className = 'AboutHeader'>About Us</h1>
 <br/>
 
+<div className = 'behindtext'>
     <div className = 'aboutparagraph'>
+    <p className = 'text'>BIO</p>
     <p className = 'text'>The render() method renders the BootstrapTable component,
     passing it the current users from the state.
     If it’s in the middle of fetching, then a “Fetching users…”
@@ -24,7 +26,7 @@ const About = (props) => {
     reporting. The bootstrap table will display only the id, name,
     and username fields of each user, though there are several other fields.</p>
     </div>
-
+</div>
 </div>
 )
 }

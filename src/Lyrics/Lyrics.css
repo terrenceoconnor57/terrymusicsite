@@ -16,6 +16,15 @@
 
 }
 
+@media (max-width: 475px) {
+   .lyricspage {
+    width: 80%;
+    padding-top: 10px;
+
+  }
+
+}
+
 .lyricsheader {
   font-size: 100px;
   color: white;
@@ -23,10 +32,27 @@
   font-family: 'Oswald', sans-serif;
 }
 
+@media (max-width: 475px) {
+   .lyricsheader {
+    font-size: 70px;
+  }
+
+
+}
+
 .lyricslist {
   margin-top: 1px;
   list-style: none;
 }
+
+@media (max-width: 475px) {
+   .lyricslist {
+    padding-top: 0px;
+    margin-top: -30px;
+
+  }
+}
+
 
 
 
@@ -37,12 +63,29 @@
 
 }
 
+@media (max-width: 475px) {
+   .lyrics {
+    text-align: center;
+    margin-left: -65px;
+    margin-top: 10px;
+
+  }
+}
+
 .songjson {
   font-size: 50px;
   color: white;
   cursor: pointer;
   font-family: 'Oswald', sans-serif;
 }
+
+@media (max-width: 475px) {
+   .songjson {
+    font-size: 25px;
+  }
+}
+
+
 
 .songjson:hover {
   color: white;
@@ -54,4 +97,10 @@
 
 .caret {
   color: transparent;
+}
+
+@media (max-width: 475px) {
+   .caret {
+    display: none;
+  }
 }

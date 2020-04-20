@@ -25,12 +25,16 @@
 
 .aboutparagraph {
   background: white;
-  width: 100%;
+  width: 85%;
   margin-left: auto;
+  margin-right: auto;
   margin-top: -70px;
   padding-bottom: 1000px;
 }
 
+.behindtext {
+  background: rgb(169,169,169,0.7);
+}
 
 .text {
   font-size: 30px;
@@ -40,4 +44,11 @@
   margin-left: auto;
   margin-right: auto;
   font-family: 'Oswald', sans-serif;
+}
+
+@media (max-width: 475px) {
+   .text {
+    font-size: 20px;
+
+  }
 }
