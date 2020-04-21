@@ -81,7 +81,7 @@ class MusicBox extends Component {
 
 return(
 <div className = 'second'>
-  <h1 className = 'mainline'>Total Duds</h1>
+  <h1 className = 'mainline'>Our Music</h1>
   <div className = 'buttondiv'>
 
   <ScrollTo>
