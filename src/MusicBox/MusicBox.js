@@ -3,6 +3,7 @@ import '../App.css';
 import {BrowserRouter} from 'react-router-dom';
 import {Route} from 'react-router-dom';
 import MusicPlayer from 'react-responsive-music-player';
+import { ScrollTo } from "react-scroll-to";
 
 
 
@@ -80,9 +81,15 @@ class MusicBox extends Component {
 
 return(
 <div className = 'second'>
-  <h1 className = 'mainline'>Our Music</h1>
+  <h1 className = 'mainline'>Total Duds</h1>
   <div className = 'buttondiv'>
-  <a className = 'listen'>Listen<i class="chevron down icon"></i></a>
+
+  <ScrollTo>
+          {({ scroll }) => (
+  <a onClick={() => scroll({ y: 700, smooth: true })}className = 'listen'>Listen<i class="chevron down icon"></i></a>
+)}
+      </ScrollTo>
+
   </div>
 
 <div className = 'wrapplayer'>

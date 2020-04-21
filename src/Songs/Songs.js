@@ -43,7 +43,9 @@ class Songs extends Component {
           <div className = 'songdiv'>
 
           {currentsong.map(current => (
+            <div className = 'wrapheader'>
             <h1 className = 'songheader'>{current.name}
+
             <ul className = 'listsongs'>
             <AudioPlayer key = {current.id}
             src= {current.playing}
@@ -51,6 +53,7 @@ class Songs extends Component {
               />
               </ul>
               </h1>
+              </div>
           ))}
 <br/>
 <br/>

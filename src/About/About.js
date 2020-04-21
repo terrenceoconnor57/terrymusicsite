@@ -18,13 +18,14 @@ const About = (props) => {
 
 <div className = 'behindtext'>
     <div className = 'aboutparagraph'>
-    <p className = 'text'>BIO</p>
-    <p className = 'text'>The render() method renders the BootstrapTable component,
-    passing it the current users from the state.
-    If it’s in the middle of fetching, then a “Fetching users…”
-    message is displayed, too. This is super-rudimentary progress
-    reporting. The bootstrap table will display only the id, name,
-    and username fields of each user, though there are several other fields.</p>
+    <p className = 'text'>Father and son songwriting team in the NYC area
+    providing pop and country music for the ever expanding sync market.
+    In pursuit of a relationship with a music supervisor or publishing
+    house to market our music. </p>
+    <p className = 'text'>Current member of NSAI and mentioned as
+    “one to watch” 2/19. Received honorable mention for lyric contest
+    in American Songwriter magazine 2/18.  Well versed on music production
+    with Logic Pro X.</p>
     </div>
 </div>
 </div>

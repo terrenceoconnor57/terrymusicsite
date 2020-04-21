@@ -27,10 +27,24 @@
   }
 }
 
+.wrapheader {
+  width: 100%;
+}
+
 .songheader {
   color: white;
   font-size: 50px;
+  right: 30;
+
 }
+
+@media (max-width: 475px) {
+   .songheader {
+    font-size: 40px;
+
+  }
+}
+
 
 .listsongs {
   margin-right: auto;
