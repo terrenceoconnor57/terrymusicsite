@@ -14,13 +14,13 @@
   margin-right: auto;
   margin-top: auto;
   padding-right: 20px;
+  padding-top: 30px;
 
 }
 
 @media (max-width: 475px) {
    .lyricspage {
     width: 80%;
-    padding-top: 10px;
 
   }
 

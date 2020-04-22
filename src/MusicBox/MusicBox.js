@@ -18,62 +18,49 @@ class MusicBox extends Component {
     url: 'SomedayFinal.mp3',
     title: 'Someday',
     artist: [
-      'Terry',
-      'Dennis'
+
     ]
   },
   {
     url: 'Exit Wound.mp3',
-    cover: 'mee.png',
     title: 'Exit Wound',
     artist: [
-      'Terry',
-      'Dennis'
+
     ]
   },
   {
     url: 'new kings.mp3',
-    cover: 'mee.png',
     title: 'Kings',
     artist: [
-      'Terry',
-      'Dennis'
+
     ]
   },
   {
     url: 'shine_.mp3',
-    cover: 'mee.png',
     title: 'Imperfect Shine',
     artist: [
-      'Terry',
-      'Dennis'
+
     ]
   },
   {
     url: 'killing me final.mp3',
-    cover: 'mee.png',
     title: 'Killing Me',
     artist: [
-      'Terry',
-      'Dennis'
+
     ]
   },
   {
     url: 'Thousand Miles Gone.mp3',
-    cover: 'mee.png',
     title: 'Thousand Miles Gone',
     artist: [
-      'Terry',
-      'Dennis'
+
     ]
   },
   {
     url: 'Dont Wake Me.mp3',
-    cover: 'mee.png',
     title: 'Don\'t Wake Me',
     artist: [
-      'Terry',
-      'Dennis'
+      
     ]
   },
 
@@ -81,7 +68,7 @@ class MusicBox extends Component {
 
 return(
 <div className = 'second'>
-  <h1 className = 'mainline'>Our Music</h1>
+  <h1 className = 'mainline'>Our Tunes</h1>
   <div className = 'buttondiv'>
 
   <ScrollTo>

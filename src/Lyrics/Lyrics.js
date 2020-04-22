@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Lyrics.css';
+import 'whatwg-fetch';
 
 
 class Lyrics extends Component {

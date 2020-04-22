@@ -29,7 +29,15 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: -70px;
+  padding-top: 40px;
   padding-bottom: 100px;
+}
+
+@media (max-width: 475px) {
+   .aboutparagraph {
+    padding-top: 20px;
+
+  }
 }
 
 .behindtext {
