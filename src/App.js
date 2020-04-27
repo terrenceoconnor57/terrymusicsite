@@ -28,7 +28,7 @@ class App extends Component {
     <div className = 'fixed'>
     <div className = "App-header">
     <ul className = "fulltoplist">
-    <li className = 'cent'><a className = 'mus' href ="/">D<i class="music icon"></i>T</a></li>
+    <li className = 'cent'><a className = 'mus' href ="/">TDO<i class="music icon"></i></a></li>
     <li className = 'cent'><a className = 'anc' href ="/"> <i class="home icon"></i>Home</a></li>
     <li className = 'cent'><a className = 'anc' href ="/About/About"><i class="address card icon"></i>About</a></li>
     <li className = 'cent'><a className = 'anc' href ="/Songs/Songs"><i class="microphone icon"></i>Songs</a></li>

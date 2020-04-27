@@ -10,23 +10,27 @@ class Songs extends Component {
     "name": "Someday",
     "playing": "/SomedayFinal.mp3"},
     {"id": 2,
+    "name": "Kings",
+    "playing": "/new kings.mp3"},
+    {"id": 3,
     "name": "Exit Wound",
     "playing": "/Exit Wound.mp3"},
-    {"id": 3,
-    "name": "Thousand Miles Gone",
-    "playing": "/Thousand Miles Gone.mp3"},
     {"id": 4,
+    "name": "Don't Wake Me",
+    "playing": "/Dont Wake Me.mp3"},
+    {"id": 5,
     "name": "Killing Me",
     "playing": "/killing me final.mp3"},
-    {"id": 5,
-    "name": "Dont Wake Me",
-    "playing": "/Dont Wake Me.mp3"},
     {"id": 6,
+    "name": "Thousand Miles Gone",
+    "playing": "/Thousand Miles Gone.mp3"},
+    {"id": 7,
     "name": "Imperfect Shine",
     "playing": "/shine_.mp3"},
-    {"id": 7,
-    "name": "Kings",
-    "playing": "/new kings.mp3"}
+    {"id": 8,
+    "name": "Back Again",
+    "playing": "/Back Again.mp3"}
+
   ]
 
   }

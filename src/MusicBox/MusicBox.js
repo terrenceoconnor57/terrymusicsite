@@ -22,13 +22,6 @@ class MusicBox extends Component {
     ]
   },
   {
-    url: 'Exit Wound.mp3',
-    title: 'Exit Wound',
-    artist: [
-
-    ]
-  },
-  {
     url: 'new kings.mp3',
     title: 'Kings',
     artist: [
@@ -36,8 +29,15 @@ class MusicBox extends Component {
     ]
   },
   {
-    url: 'shine_.mp3',
-    title: 'Imperfect Shine',
+    url: 'Exit Wound.mp3',
+    title: 'Exit Wound',
+    artist: [
+
+    ]
+  },
+  {
+    url: 'Dont Wake Me.mp3',
+    title: 'Don\'t Wake Me',
     artist: [
 
     ]
@@ -57,18 +57,28 @@ class MusicBox extends Component {
     ]
   },
   {
-    url: 'Dont Wake Me.mp3',
-    title: 'Don\'t Wake Me',
+    url: 'shine_.mp3',
+    title: 'Imperfect Shine',
+    artist: [
+
+    ]
+  },
+  {
+    url: 'Back Again.mp3',
+    title: 'Back Again',
     artist: [
       
     ]
-  },
+  }
+
+
+
 
 ]
 
 return(
 <div className = 'second'>
-  <h1 className = 'mainline'>Our Tunes</h1>
+  <h1 className = 'mainline'>TDO Music</h1>
   <div className = 'buttondiv'>
 
   <ScrollTo>

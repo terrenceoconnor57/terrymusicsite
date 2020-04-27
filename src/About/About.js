@@ -19,7 +19,7 @@ const About = (props) => {
 <div className = 'behindtext'>
     <div className = 'aboutparagraph'>
     <p className = 'text'>Father and son songwriting team in the NYC area
-    providing pop and country music for the ever expanding sync market.
+    looking to place our songs with a music library for sync licensing opportunities.
     In pursuit of a relationship with a music supervisor or publishing
     house to market our music. </p>
     <p className = 'text'>Current member of NSAI and mentioned as
